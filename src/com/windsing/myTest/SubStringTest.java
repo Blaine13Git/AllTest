@@ -3,7 +3,7 @@ package com.windsing.myTest;
 public class SubStringTest {
 	
 	public static void testSubString(){
-		String s = "10qwå¥½å¥½çš„";
+		String s = "10qweÊÇµç·çÉÈµÄrt";
 		String s_sub = s.substring(0,s.length()-3);
 		System.out.println(s_sub);
 	}
