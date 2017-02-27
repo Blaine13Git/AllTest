@@ -9,7 +9,6 @@ import java.rmi.server.UnicastRemoteObject;
  * 2、需要添加构造方法
  * 3、需要实现Remote接口
  * @author FC
- *
  */
 public class MyRMI extends UnicastRemoteObject implements Remote{
 
