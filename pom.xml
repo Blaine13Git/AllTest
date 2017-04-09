@@ -39,24 +39,10 @@
 			<version>3.15</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/WekaExcel -->
-		<dependency>
-			<groupId>nz.ac.waikato.cms.weka</groupId>
-			<artifactId>WekaExcel</artifactId>
-			<version>1.0.5</version>
-		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
-			<version>3.15</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml-schemas</artifactId>
 			<version>3.15</version>
 		</dependency>
 
