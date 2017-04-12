@@ -16,9 +16,9 @@ public class TextFileTest {
     public static void main(String[] args) throws Exception {
 
         Employee[] staff = new Employee[3];
-        staff[0] = new Employee("Carl Cracker", 75000, 1987, 12, 15);
-        staff[1] = new Employee("Harry Hacker", 50000, 1989, 10, 1);
-        staff[2] = new Employee("Tony Tester", 40000, 1990, 3, 5);
+        staff[0] = new Employee("Carl Cracker", 75000);
+        staff[1] = new Employee("Harry Hacker", 50000);
+        staff[2] = new Employee("Tony Tester", 40000);
 
         /**
          * 保存所有员工记录
@@ -63,7 +63,6 @@ public class TextFileTest {
 
     static void writeEmployee(PrintWriter out, Employee e) {
         GregorianCalendar calendar = new GregorianCalendar();
-        calendar.setTime(e.getHireDay());
 
         out.println();
     }
@@ -78,40 +77,7 @@ public class TextFileTest {
         int month = Integer.parseInt(tokens[3]);
         int day = Integer.parseInt(tokens[4]);
 
-        return new Employee(name, salary, year, month, day);
+        return new Employee(name, salary);
     }
 }
 
-class Employee {
-    private Date hireDay;
-    private String name;
-    private double salary;
-
-    public void setHireDay(Date hireDay) {
-        this.hireDay = hireDay;
-    }
-
-    public Date getHireDay() {
-        return hireDay;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
-
-    public double getSalary() {
-        return salary;
-    }
-
-    public Employee(String name, double salary, int year, int month, int day) {
-        out.println("add employee:" + name);
-    }
-}

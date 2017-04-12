@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec722b3-a681-4ae6-b9d7-cffd56e0fa99" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/windsing/ImprotNew/Day001/Article.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/windsing/book/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/windsing/book/Manager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/windsing/book/ObjWrite.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/windsing/book/TextFileTest.java" afterPath="$PROJECT_DIR$/src/com/windsing/book/TextFileTest.java" />
     </list>
@@ -25,109 +30,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AboutOutputStream.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/windsing/book/AboutOutputStream.java">
+      <file leaf-file-name="ObjWrite.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/windsing/book/ObjWrite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="65" column="29" lean-forward="false" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextFileTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/windsing/book/TextFileTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="116" column="1" lean-forward="true" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
+            <state relative-caret-position="260">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#readEmployee#0;class#TextFileTest#0" expanded="false" />
-                <element signature="e#2256#2257#0" expanded="true" />
-                <element signature="e#2294#2295#0" expanded="true" />
-                <element signature="e#2326#2327#0" expanded="true" />
-                <element signature="e#2356#2357#0" expanded="true" />
-                <element signature="e#2396#2397#0" expanded="true" />
-                <element signature="e#2428#2429#0" expanded="true" />
-                <element signature="e#2459#2460#0" expanded="true" />
-                <element signature="e#2486#2487#0" expanded="true" />
-                <element signature="e#2530#2531#0" expanded="true" />
-                <element signature="e#2566#2567#0" expanded="true" />
-                <element signature="e#2599#2600#0" expanded="true" />
-                <element signature="e#2628#2629#0" expanded="true" />
-                <element signature="e#2709#2710#0" expanded="true" />
-                <element signature="e#2760#2761#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scanner.java" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/programs/Java/jdk1.8.0_91/src.zip!/java/util/Scanner.java">
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/windsing/book/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="2074" column="15" lean-forward="false" selection-start-line="2074" selection-start-column="15" selection-end-line="2074" selection-end-column="15" />
+            <state relative-caret-position="171">
+              <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
               <folding>
-                <element signature="e#78006#78007#0" expanded="true" />
-                <element signature="e#78050#78051#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintWriter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/programs/Java/jdk1.8.0_91/src.zip!/java/io/PrintWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2166">
-              <caret line="146" column="24" lean-forward="false" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#37085#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#2748#2749#0" expanded="false" />
-                <element signature="e#2780#2781#0" expanded="false" />
-                <element signature="e#3871#3872#0" expanded="false" />
-                <element signature="e#3903#3904#0" expanded="false" />
-                <element signature="e#12964#12965#0" expanded="false" />
-                <element signature="e#12994#12995#0" expanded="false" />
-                <element signature="e#13313#13314#0" expanded="false" />
-                <element signature="e#13344#13345#0" expanded="false" />
-                <element signature="e#14765#14766#0" expanded="false" />
-                <element signature="e#14806#14807#0" expanded="false" />
-                <element signature="e#15583#15584#0" expanded="false" />
-                <element signature="e#15622#15623#0" expanded="false" />
-                <element signature="e#16522#16523#0" expanded="false" />
-                <element signature="e#16565#16566#0" expanded="false" />
-                <element signature="e#16934#16935#0" expanded="false" />
-                <element signature="e#16958#16959#0" expanded="false" />
-                <element signature="e#17430#17431#0" expanded="false" />
-                <element signature="e#17470#17471#0" expanded="false" />
-                <element signature="e#17947#17948#0" expanded="false" />
-                <element signature="e#17987#17988#0" expanded="false" />
-                <element signature="e#18478#18479#0" expanded="false" />
-                <element signature="e#18518#18519#0" expanded="false" />
-                <element signature="e#19031#19032#0" expanded="false" />
-                <element signature="e#19071#19072#0" expanded="false" />
-                <element signature="e#19523#19524#0" expanded="false" />
-                <element signature="e#19547#19548#0" expanded="false" />
-                <element signature="e#20593#20594#0" expanded="false" />
-                <element signature="e#20635#20636#0" expanded="false" />
-                <element signature="e#20978#20979#0" expanded="false" />
-                <element signature="e#21003#21004#0" expanded="false" />
-                <element signature="e#26772#26773#0" expanded="false" />
-                <element signature="e#26815#26816#0" expanded="false" />
-                <element signature="e#29026#29027#0" expanded="false" />
-                <element signature="e#29072#29073#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="file_002.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/file_002.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -166,7 +90,11 @@
         <option value="$PROJECT_DIR$/src/com/windsing/book/AboutFiles.java" />
         <option value="$PROJECT_DIR$/source/file_002.txt" />
         <option value="$PROJECT_DIR$/src/com/windsing/book/AboutOutputStream.java" />
+        <option value="$PROJECT_DIR$/src/com/windsing/ImprotNew/Day001/Article.java" />
+        <option value="$PROJECT_DIR$/src/com/windsing/book/Manager.java" />
         <option value="$PROJECT_DIR$/src/com/windsing/book/TextFileTest.java" />
+        <option value="$PROJECT_DIR$/src/com/windsing/book/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/windsing/book/ObjWrite.java" />
       </list>
     </option>
   </component>
@@ -207,6 +135,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,11 +167,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="windsing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,27 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AboutOutputStream">
-    <configuration default="false" name="TestOrEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.windsing.myTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.windsing.myTest.TestOrEqual" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="AllTest" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ObjWrite">
     <configuration default="false" name="AboutInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -369,6 +299,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.windsing.book.AboutOutputStream" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AllTest" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ObjWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.windsing.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.windsing.book.ObjWrite" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -886,19 +836,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestOrEqual" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AboutInputStream" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AboutInputStream002" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AboutFiles" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AboutOutputStream" />
+      <item index="0" class="java.lang.String" itemvalue="Application.AboutInputStream" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AboutInputStream002" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AboutFiles" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AboutOutputStream" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ObjWrite" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AboutOutputStream" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AboutFiles" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AboutInputStream" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AboutInputStream002" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestOrEqual" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ObjWrite" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AboutOutputStream" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AboutFiles" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AboutInputStream" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AboutInputStream002" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -943,7 +893,9 @@
       <workItem from="1491749014286" duration="419000" />
       <workItem from="1491751584848" duration="239000" />
       <workItem from="1491833703806" duration="1491000" />
-      <workItem from="1491918132628" duration="3908000" />
+      <workItem from="1491918132628" duration="5604000" />
+      <workItem from="1492008389553" duration="53000" />
+      <workItem from="1492008498013" duration="4305000" />
     </task>
     <task id="LOCAL-00001" summary="add inputStram (file)的理解">
       <created>1491573739381</created>
@@ -959,30 +911,39 @@
       <option name="project" value="LOCAL" />
       <updated>1491749414248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="case001 form book">
+      <created>1492006676866</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1492006676866</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30696000" />
+    <option name="totallyTimeSpent" value="36750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21349207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21984127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -995,7 +956,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1017,7 +977,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add inputStram (file)的理解" />
     <MESSAGE value="文件读写操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件读写操作" />
+    <MESSAGE value="case001 form book" />
+    <option name="LAST_COMMIT_MESSAGE" value="case001 form book" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1030,94 +991,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/programs/Java/jdk1.8.0_91/src.zip!/java/io/PrintWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2774">
-          <caret line="146" column="24" lean-forward="false" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#37085#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2748#2749#0" expanded="false" />
-            <element signature="e#2780#2781#0" expanded="false" />
-            <element signature="e#3871#3872#0" expanded="false" />
-            <element signature="e#3903#3904#0" expanded="false" />
-            <element signature="e#12964#12965#0" expanded="false" />
-            <element signature="e#12994#12995#0" expanded="false" />
-            <element signature="e#13313#13314#0" expanded="false" />
-            <element signature="e#13344#13345#0" expanded="false" />
-            <element signature="e#14765#14766#0" expanded="false" />
-            <element signature="e#14806#14807#0" expanded="false" />
-            <element signature="e#15583#15584#0" expanded="false" />
-            <element signature="e#15622#15623#0" expanded="false" />
-            <element signature="e#16522#16523#0" expanded="false" />
-            <element signature="e#16565#16566#0" expanded="false" />
-            <element signature="e#16934#16935#0" expanded="false" />
-            <element signature="e#16958#16959#0" expanded="false" />
-            <element signature="e#17430#17431#0" expanded="false" />
-            <element signature="e#17470#17471#0" expanded="false" />
-            <element signature="e#17947#17948#0" expanded="false" />
-            <element signature="e#17987#17988#0" expanded="false" />
-            <element signature="e#18478#18479#0" expanded="false" />
-            <element signature="e#18518#18519#0" expanded="false" />
-            <element signature="e#19031#19032#0" expanded="false" />
-            <element signature="e#19071#19072#0" expanded="false" />
-            <element signature="e#19523#19524#0" expanded="false" />
-            <element signature="e#19547#19548#0" expanded="false" />
-            <element signature="e#20593#20594#0" expanded="false" />
-            <element signature="e#20635#20636#0" expanded="false" />
-            <element signature="e#20978#20979#0" expanded="false" />
-            <element signature="e#21003#21004#0" expanded="false" />
-            <element signature="e#26772#26773#0" expanded="false" />
-            <element signature="e#26815#26816#0" expanded="false" />
-            <element signature="e#29026#29027#0" expanded="false" />
-            <element signature="e#29072#29073#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/file_002.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/windsing/book/TextFileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#readEmployee#0;class#TextFileTest#0" expanded="false" />
-            <element signature="e#2256#2257#0" expanded="true" />
-            <element signature="e#2294#2295#0" expanded="true" />
-            <element signature="e#2326#2327#0" expanded="true" />
-            <element signature="e#2356#2357#0" expanded="true" />
-            <element signature="e#2396#2397#0" expanded="true" />
-            <element signature="e#2428#2429#0" expanded="true" />
-            <element signature="e#2459#2460#0" expanded="true" />
-            <element signature="e#2486#2487#0" expanded="true" />
-            <element signature="e#2530#2531#0" expanded="true" />
-            <element signature="e#2566#2567#0" expanded="true" />
-            <element signature="e#2599#2600#0" expanded="true" />
-            <element signature="e#2628#2629#0" expanded="true" />
-            <element signature="e#2709#2710#0" expanded="true" />
-            <element signature="e#2760#2761#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/windsing/book/AboutFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/programs/Java/jdk1.8.0_91/src.zip!/java/io/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -1374,44 +1247,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2166">
           <caret line="146" column="24" lean-forward="false" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#37085#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2748#2749#0" expanded="false" />
-            <element signature="e#2780#2781#0" expanded="false" />
-            <element signature="e#3871#3872#0" expanded="false" />
-            <element signature="e#3903#3904#0" expanded="false" />
-            <element signature="e#12964#12965#0" expanded="false" />
-            <element signature="e#12994#12995#0" expanded="false" />
-            <element signature="e#13313#13314#0" expanded="false" />
-            <element signature="e#13344#13345#0" expanded="false" />
-            <element signature="e#14765#14766#0" expanded="false" />
-            <element signature="e#14806#14807#0" expanded="false" />
-            <element signature="e#15583#15584#0" expanded="false" />
-            <element signature="e#15622#15623#0" expanded="false" />
-            <element signature="e#16522#16523#0" expanded="false" />
-            <element signature="e#16565#16566#0" expanded="false" />
-            <element signature="e#16934#16935#0" expanded="false" />
-            <element signature="e#16958#16959#0" expanded="false" />
-            <element signature="e#17430#17431#0" expanded="false" />
-            <element signature="e#17470#17471#0" expanded="false" />
-            <element signature="e#17947#17948#0" expanded="false" />
-            <element signature="e#17987#17988#0" expanded="false" />
-            <element signature="e#18478#18479#0" expanded="false" />
-            <element signature="e#18518#18519#0" expanded="false" />
-            <element signature="e#19031#19032#0" expanded="false" />
-            <element signature="e#19071#19072#0" expanded="false" />
-            <element signature="e#19523#19524#0" expanded="false" />
-            <element signature="e#19547#19548#0" expanded="false" />
-            <element signature="e#20593#20594#0" expanded="false" />
-            <element signature="e#20635#20636#0" expanded="false" />
-            <element signature="e#20978#20979#0" expanded="false" />
-            <element signature="e#21003#21004#0" expanded="false" />
-            <element signature="e#26772#26773#0" expanded="false" />
-            <element signature="e#26815#26816#0" expanded="false" />
-            <element signature="e#29026#29027#0" expanded="false" />
-            <element signature="e#29072#29073#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1433,36 +1269,74 @@
     </entry>
     <entry file="jar://E:/programs/Java/jdk1.8.0_91/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
+        <state relative-caret-position="37962">
           <caret line="2074" column="15" lean-forward="false" selection-start-line="2074" selection-start-column="15" selection-end-line="2074" selection-end-column="15" />
           <folding>
-            <element signature="e#78006#78007#0" expanded="true" />
-            <element signature="e#78050#78051#0" expanded="true" />
+            <element signature="e#78006#78007#0" expanded="false" />
+            <element signature="e#78050#78051#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/windsing/book/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/windsing/ImprotNew/Day001/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/windsing/book/TextFileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="116" column="1" lean-forward="true" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
+        <state relative-caret-position="298">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#readEmployee#0;class#TextFileTest#0" expanded="false" />
-            <element signature="e#2256#2257#0" expanded="true" />
-            <element signature="e#2294#2295#0" expanded="true" />
-            <element signature="e#2326#2327#0" expanded="true" />
-            <element signature="e#2356#2357#0" expanded="true" />
-            <element signature="e#2396#2397#0" expanded="true" />
-            <element signature="e#2428#2429#0" expanded="true" />
-            <element signature="e#2459#2460#0" expanded="true" />
-            <element signature="e#2486#2487#0" expanded="true" />
-            <element signature="e#2530#2531#0" expanded="true" />
-            <element signature="e#2566#2567#0" expanded="true" />
-            <element signature="e#2599#2600#0" expanded="true" />
-            <element signature="e#2628#2629#0" expanded="true" />
-            <element signature="e#2709#2710#0" expanded="true" />
-            <element signature="e#2760#2761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/windsing/book/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/windsing/book/ObjWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
