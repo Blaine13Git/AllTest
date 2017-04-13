@@ -1,5 +1,7 @@
 package com.windsing.book;
 
+import org.apache.poi.util.SystemOutLogger;
+
 import java.io.*;
 
 /*
@@ -10,11 +12,16 @@ import java.io.*;
  */
 public class AboutInputStream {
 
-    public static void main(String[] args) {
-        String pathname = "./source/my_img.jpg";
-        File file = new File(pathname);
-        file.getAbsolutePath();
-        System.out.println(file.getAbsolutePath());
+    static String pathname = "./source/my_img.jpg";
+    static File file = new File(pathname);
+
+    public static void for_file() {
+
+        String short_name = file.getPath();
+        String long_name = file.getAbsolutePath();
+        System.out.println("short_name >> " + short_name);
+        System.out.println("long_name >> " + long_name);
+
         InputStream fis = null;
         try {
             fis = new FileInputStream(file);
@@ -31,26 +38,56 @@ public class AboutInputStream {
              * 8、attch(this)是线程安全的，如果有多个流指向当前的fd，则执行close()
              * 9、最后打开文件
              **/
-            int content = fis.read(); //读取第一个字节，如果返回-1.说明读到结尾了。
-            System.out.println(content);
+
+            int available_read_count = fis.available(); // 检察可以读取的字符数量
+            System.out.println(available_read_count);
+            if (available_read_count > 0) {
+                int content = fis.read(); //读取第一个字节，如果返回-1.说明读到结尾了。
+                System.out.println(content);
+
+                int img_byte_count = 0;
+                while (fis.read() != -1) {
+                    img_byte_count += 1;
+                }
+                System.out.print(img_byte_count);
+            }
+
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             try {
                 fis.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
+    }
 
-//        try {
-//            FileInputStream fis2 = new FileInputStream(pathname);
-//        } catch (FileNotFoundException e) {
-//            e.printStackTrace();
-//        }
+    public static void for_string() {
+        FileInputStream fis2 = null;
+        try {
+            fis2 = new FileInputStream(pathname);
+            int content = fis2.read();
+            System.out.print(content);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                fis2.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 
+    public static void main(String[] args) {
+        for_file();
+//        for_string();
     }
 
 }
