@@ -1,12 +1,9 @@
-package com.windsing.book;
+package com.windsing.book.b001;
 
 import java.io.FileInputStream;
 import java.io.PrintWriter;
-import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Scanner;
-
-import static java.lang.System.out;
 
 /**
  * Created by fch96 on 2017/4/9.

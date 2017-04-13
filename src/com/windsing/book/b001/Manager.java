@@ -1,4 +1,4 @@
-package com.windsing.book;
+package com.windsing.book.b001;
 
 /**
  * Created by fch96 on 2017/4/12.

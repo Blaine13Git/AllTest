@@ -1,4 +1,4 @@
-package com.windsing.book;
+package com.windsing.book.b001;
 
 import java.io.*;
 import java.util.Scanner;
