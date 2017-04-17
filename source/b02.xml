@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+    <name font="big" size="20">Java</name>
+    <author>JJ</author>
+    <pages>655</pages>
+
+    <chapters>
+        <chapter001>
+            <title font="big" size="16">Read and Write</title>
+            <pages>50</pages>
+        </chapter001>
+        <chapter002>
+            <title font="big" size="16">Net and Socket</title>
+            <pages>55</pages>
+        </chapter002>
+    </chapters>
+
+</book>

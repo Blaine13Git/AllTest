@@ -11,9 +11,10 @@ import static java.lang.System.out;
  */
 public class TestChannel {
     static void test_001() throws Exception{
-        Path file_path = Paths.get("E:\\","workspaces\\AllTest\\source","my_img.jpg");
+        Path file_path = Paths.get("E:\\","Code\\eclipseWorkspace\\AllTest\\source","InputOutput.dat");
         FileChannel channel = FileChannel.open(file_path);
         out.println(channel.size());
+//        channel.map(FileChannel.MapMode.READ_WRITE,0,10);
 //        channel.map(FileChannel.MapMode.READ_WRITE,0,channel.size());
     }
     public static void main(String[] args) throws Exception{
