@@ -1,4 +1,4 @@
-package com.windsing.book.b003;
+package com.windsing.book.b002;
 
 import java.nio.channels.FileChannel;
 import java.nio.file.Path;

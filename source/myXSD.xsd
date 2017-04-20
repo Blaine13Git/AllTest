@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
-<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://www.phpStudy.net"
-           xmlns="http://www.phpStudy.net"
-           elementFormDefault="qualified">
+<xsi:schema
+        targetNamespace="http://www.phpStudy.net"
+        xmlns="http://www.phpStudy.net"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+        elementFormDefault="qualified">
 
     <xsi:element name="note">
         <xsi:complexType>
