@@ -1,20 +1,16 @@
 package com.windsing.book.b003;
 
-import com.sun.corba.se.impl.legacy.connection.SocketFactoryAcceptorImpl;
-import jdk.net.Sockets;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
-import java.net.InetAddress;
-import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
 /**
  * Created by FC on 2017/4/19.
+ * 使用多线程为服务器提供多个客户端链接
  */
 public class TestSocket03 {
 
