@@ -1,4 +1,4 @@
-package com.windsing.book02.b001;
+package com.windsing.book.b002;
 
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
