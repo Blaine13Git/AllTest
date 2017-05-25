@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec722b3-a681-4ae6-b9d7-cffd56e0fa99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/windsing/book/b001/MemoryMapTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/windsing/book/b001/ReadPrimesMixedData2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/windsing/book/b003/Common.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/windsing/book/b003/MyHttpProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/windsing/book/b003/htmlAPI.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/windsing/book02/b002/MyJson.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/windsing/book/b003/HttpProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/windsing/book/b003/SubHttpProxy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/windsing/book/b003/TestSocket02.java" afterPath="$PROJECT_DIR$/src/com/windsing/book/b003/TestSocket02.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/windsing/book/b002/Animal.java" afterPath="$PROJECT_DIR$/src/com/windsing/book/b001/Animal.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/windsing/book/b002/InputOutPut.java" afterPath="$PROJECT_DIR$/src/com/windsing/book/b001/InputOutPut.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/windsing/book/b002/People.java" afterPath="$PROJECT_DIR$/src/com/windsing/book/b001/People.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/windsing/book/b002/TestChannel.java" afterPath="$PROJECT_DIR$/src/com/windsing/book/b001/TestChannel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/windsing/book/b002/TestCharset.java" afterPath="$PROJECT_DIR$/src/com/windsing/book/b001/TestCharset.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/windsing/book/b002/TestPath.java" afterPath="$PROJECT_DIR$/src/com/windsing/book/b001/TestPath.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/windsing/book/b003/JavaLocationEle.java" afterPath="$PROJECT_DIR$/src/com/windsing/myTest/JavaLocationEle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/windsing/book02/b001/XMLDOMParse.java" afterPath="$PROJECT_DIR$/src/com/windsing/book/b002/XMLDOMParse.java" />
     </list>
     <ignored path="AllTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,12 +59,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="htmlAPI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="htmlAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/windsing/book/b003/htmlAPI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubHttpProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/windsing/book/b003/SubHttpProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#838#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpProxy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/windsing/book/b003/HttpProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,6 +182,8 @@
         <option value="$PROJECT_DIR$/src/com/windsing/book/b003/TestSocket03.java" />
         <option value="$PROJECT_DIR$/src/com/windsing/book/b003/TestSocket02.java" />
         <option value="$PROJECT_DIR$/src/com/windsing/book/b003/htmlAPI.java" />
+        <option value="$PROJECT_DIR$/src/com/windsing/book/b003/SubHttpProxy.java" />
+        <option value="$PROJECT_DIR$/src/com/windsing/book/b003/HttpProxy.java" />
       </list>
     </option>
   </component>
@@ -191,8 +208,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="116" />
-    <option name="y" value="9" />
+    <option name="x" value="35" />
+    <option name="y" value="35" />
     <option name="width" value="1874" />
     <option name="height" value="1092" />
   </component>
@@ -1073,7 +1090,7 @@
       <workItem from="1492745004797" duration="7908000" />
       <workItem from="1495100621781" duration="622000" />
       <workItem from="1495682475196" duration="1973000" />
-      <workItem from="1495696667493" duration="2891000" />
+      <workItem from="1495696667493" duration="3109000" />
     </task>
     <task id="LOCAL-00001" summary="add inputStram (file)的理解">
       <created>1491573739381</created>
@@ -1110,14 +1127,22 @@
       <option name="project" value="LOCAL" />
       <updated>1492739287314</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="代理">
+      <created>1495716376006</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1495716376006</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88670000" />
+    <option name="totallyTimeSpent" value="88888000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="116" y="9" width="1874" height="1092" extended-state="0" />
+    <frame x="35" y="35" width="1874" height="1092" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1133,7 +1158,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744282" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21499449" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21499449" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1197,7 +1222,8 @@
     <MESSAGE value="XML parse" />
     <MESSAGE value="Socket and Thread" />
     <MESSAGE value="URL" />
-    <option name="LAST_COMMIT_MESSAGE" value="URL" />
+    <MESSAGE value="代理" />
+    <option name="LAST_COMMIT_MESSAGE" value="代理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1210,8 +1236,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/file_002.txt" />
-    <entry file="file://$PROJECT_DIR$/src/com/windsing/book/AboutOutputStream.java" />
     <entry file="file://$PROJECT_DIR$/src/com/windsing/book/TextFileTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/windsing/myTest/CSVTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1351,6 +1375,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#933#934#0" expanded="false" />
+            <element signature="e#958#959#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1366,6 +1394,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1387,6 +1418,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1530,6 +1564,30 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/windsing/book/b003/SubHttpProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#838#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/windsing/book/b003/HttpProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
