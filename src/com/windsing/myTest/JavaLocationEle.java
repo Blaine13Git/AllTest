@@ -1,4 +1,4 @@
-package com.windsing.book.b003;
+package com.windsing.myTest;
 
 import org.xvolks.jnative.JNative;
 import org.xvolks.jnative.Type;

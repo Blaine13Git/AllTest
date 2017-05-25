@@ -1,4 +1,4 @@
-package com.windsing.book.b002;
+package com.windsing.book.b001;
 
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
@@ -19,11 +19,8 @@ public class TestCharset {
         Charset cset = Charset.forName("ISO-8859-1");
         Set<String> aliases = cset.aliases();
         for (String s : aliases) {
-
             out.println(s);
         }
-
-
     }
 
     /**

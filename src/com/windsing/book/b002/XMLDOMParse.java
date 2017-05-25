@@ -1,4 +1,4 @@
-package com.windsing.book02.b001;
+package com.windsing.book.b002;
 
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
@@ -6,7 +6,6 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
