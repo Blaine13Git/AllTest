@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec722b3-a681-4ae6-b9d7-cffd56e0fa99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/windsing/myTest/HTTPServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/windsing/myTest/Servlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/windsing/myTest/TestReflect.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AllTest.iws" />
@@ -54,10 +51,9 @@
       <file leaf-file-name="Servlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/windsing/myTest/Servlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="50">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
-                <element signature="e#149#150#0" expanded="true" />
                 <element signature="e#195#196#0" expanded="true" />
               </folding>
             </state>
@@ -1002,11 +998,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495716376006</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="服务器">
+      <created>1495815025545</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1495815025545</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94557000" />
+    <option name="totallyTimeSpent" value="95203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
@@ -1147,7 +1150,8 @@
     <MESSAGE value="Socket and Thread" />
     <MESSAGE value="URL" />
     <MESSAGE value="代理" />
-    <option name="LAST_COMMIT_MESSAGE" value="代理" />
+    <MESSAGE value="服务器" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1421,10 +1425,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/windsing/myTest/Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="50">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
-            <element signature="e#149#150#0" expanded="true" />
             <element signature="e#195#196#0" expanded="true" />
           </folding>
         </state>
