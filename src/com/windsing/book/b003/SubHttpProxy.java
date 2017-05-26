@@ -2,7 +2,7 @@
 // 不记录主机名字
 // 在日志输出的每一行前面加上一个'*'
 
-import com.windsing.book.b003.HttpProxy;
+package com.windsing.book.b003;
 
 import java.io.*;
 import java.net.*;

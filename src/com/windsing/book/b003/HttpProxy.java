@@ -2,6 +2,7 @@
  * 一个基础的代理服务器类
  *************************************
  */
+package com.windsing.book.b003;
 import java.net.*;
 import java.io.*;
 
