@@ -1,5 +1,6 @@
 package com.windsing.book.b003;
 
+import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.net.Socket;
@@ -12,7 +13,6 @@ public class TestSocket02 {
     static void test001() throws Exception {
         Socket s = new Socket();
         s.connect(new InetSocketAddress("baidu.com", 80), 1000);
-
     }
 
     static void test002(String hostname) throws Exception {
