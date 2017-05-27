@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Created by FC on 2017/5/18.
  */
-public class Common {
+public class FilterAPI {
 
     public static List<String> api_lists;
 

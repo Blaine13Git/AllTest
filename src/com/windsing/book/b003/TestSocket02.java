@@ -16,7 +16,7 @@ public class TestSocket02 {
     }
 
     static void test002(String hostname) throws Exception {
-        System.out.println("Localhost:"+InetAddress.getLocalHost());
+        System.out.println("Localhost:" + InetAddress.getLocalHost());
         InetAddress byName = InetAddress.getByName(hostname);
         System.out.println("InetAddress.getByName:>>" + byName);
 

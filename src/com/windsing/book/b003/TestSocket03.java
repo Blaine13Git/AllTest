@@ -30,44 +30,45 @@ public class TestSocket03 {
         test001();
     }
 
-}
+    private static class ThreadedEchoHandler implements Runnable {
 
-class ThreadedEchoHandler implements Runnable {
+        private Socket incoming;
 
-    private Socket incoming;
-
-    public ThreadedEchoHandler(Socket socket) {
-        incoming = socket;
-    }
-
-    @Override
-    public void run() {
-
-        try {
-
-            InputStream inputStream = incoming.getInputStream();
-            OutputStream outputStream = incoming.getOutputStream();
-            Scanner scanner = new Scanner(inputStream);
-            PrintWriter printWriter = new PrintWriter(outputStream, true);
-            printWriter.println("Hello! Enter BYE to Exit");
-
-            boolean done = false;
-
-            while (!done && scanner.hasNextLine()) {
-                String line = scanner.nextLine();
-                printWriter.println("Echo:" + line);
-                if (line.contains("BYE")) done = true;
-            }
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                incoming.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        public ThreadedEchoHandler(Socket socket) {
+            incoming = socket;
         }
 
+        @Override
+        public void run() {
+
+            try {
+
+                InputStream inputStream = incoming.getInputStream();
+                OutputStream outputStream = incoming.getOutputStream();
+                Scanner scanner = new Scanner(inputStream);
+                PrintWriter printWriter = new PrintWriter(outputStream, true);
+                printWriter.println("Hello! Enter BYE to Exit");
+
+                boolean done = false;
+
+                while (!done && scanner.hasNextLine()) {
+                    String line = scanner.nextLine();
+                    printWriter.println("Echo:" + line);
+                    if (line.contains("BYE")) done = true;
+                }
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            } finally {
+                try {
+                    incoming.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
+        }
     }
+
 }
+

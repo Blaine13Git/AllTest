@@ -64,7 +64,6 @@ public class MyHttpProxy {
                 Scanner scanner = new Scanner(inputStream);
 
                 while (scanner.hasNextLine()) {
-                    String request_http = scanner.findInLine("HTTP/1.1");
                     String line = scanner.nextLine();
                     System.out.println(line);
                 }
